@@ -266,6 +266,7 @@ DEPENDENCIES
   rails (~> 5.2.1)
   sassc-rails
   selenium-webdriver
+  shopify_api
   shopify_app
   spring
   spring-watcher-listen (~> 2.0.0)
