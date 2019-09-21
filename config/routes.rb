@@ -5,5 +5,6 @@ Rails.application.routes.draw do
                                     unlocks: 'user/unlocks',
                                     registrations: 'user/registrations' }
   resources :vendors, only: :index
+  mount ShopifyApp::Engine, at: '/'
   root to: 'home#index'
 end
