@@ -17,7 +17,5 @@ module HarmanVendor
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
     config.i18n.default_locale = :'zh-CN'
-
-    config.web_console.whitelisted_ips = ['210.13.93.0/8', '117.136.12.0/8']
   end
 end
