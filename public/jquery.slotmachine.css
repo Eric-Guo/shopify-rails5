@@ -40,3 +40,11 @@
 #planeMachine {
   max-height: 28px;
 }
+
+.div-left{
+  float:left;
+}
+.div-right{
+  float:right;
+  padding-right:10px;
+}
