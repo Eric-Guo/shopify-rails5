@@ -1,5 +1,5 @@
 ShopifyApp.configure do |config|
-  config.application_name = "eric-test"
+  config.application_name = "SH Hackathon No.21"
   config.api_key = Rails.application.credentials.shopify_api_key
   config.secret = Rails.application.credentials.shopify_api_secret
   config.old_secret = ""
@@ -10,6 +10,9 @@ ShopifyApp.configure do |config|
   config.api_version = "2019-07"
   config.session_repository = ShopifyApp::InMemorySessionStore
   config.scripttags = [{
+    event: 'onload',
+    src: "https://ericguo.ggrok.com/jquery.slotmachine.js"
+  },{
     event: 'onload',
     src: "https://ericguo.ggrok.com/welcome_bar.js"
   }]
